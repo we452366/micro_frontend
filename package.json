@@ -1,0 +1,39 @@
+{
+  "name": "micro_frontend",
+  "version": "1.0.0",
+  "description": "微前端",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev":"rollup -c",
+    "serve":"SERVE=true rollup -c -w"
+  },
+  "browserslist":[
+    "ie >= 11",
+    "last 4 Safari major versions",
+    "last 10 Chrome major versions",
+    "last 10 Firefox major versions",
+    "last 4 Edge major versions"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/we452366/micro_frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/we452366/micro_frontend/issues"
+  },
+  "homepage": "https://github.com/we452366/micro_frontend#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.6.3",
+    "rollup": "^1.25.2",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.1"
+  }
+}
